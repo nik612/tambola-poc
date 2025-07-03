@@ -37,8 +37,9 @@ export default function PlayPage() {
       </header>
       <p className="text-muted-foreground mb-3 xs:mb-4 sm:mb-6 text-xs sm:text-sm md:text-base text-center max-w-5xl">
         Enjoy a fun and interactive Tambola experience online with your friends.
-        Start a new round instantly, track numbers on a live board, and enjoy
-        seamless gameplay on this free platform.
+        Start a new round instantly, track called numbers on a live board, and
+        enjoy smooth, uninterrupted gameplay — all on this free and accessible
+        platform.
       </p>
 
       <main className="w-full max-w-5xl grid grid-cols-1 md:grid-cols-3 gap-3 sm:gap-4 md:gap-6">
