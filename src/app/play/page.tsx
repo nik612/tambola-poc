@@ -1,7 +1,6 @@
-
 "use client";
 
-import { useRouter } from 'next/navigation';
+import { useRouter } from "next/navigation";
 import CurrentNumberDisplay from "@/components/tambola/CurrentNumberDisplay";
 import GameControls from "@/components/tambola/GameControls";
 import LastNumbers from "@/components/tambola/LastNumbers";
@@ -37,7 +36,9 @@ export default function PlayPage() {
         </div>
       </header>
       <p className="text-muted-foreground mb-3 xs:mb-4 sm:mb-6 text-xs sm:text-sm md:text-base text-center max-w-5xl">
-          Let the good times roll! Call out the numbers and claim your prizes.
+        Play Tambola online with friends in real time. Click "Start New Round"
+        to begin. This free web-based Tambola game includes number calling, a
+        live board, and an intuitive experience.
       </p>
 
       <main className="w-full max-w-5xl grid grid-cols-1 md:grid-cols-3 gap-3 sm:gap-4 md:gap-6">
@@ -75,7 +76,10 @@ export default function PlayPage() {
       </main>
 
       <footer className="mt-6 xs:mt-8 sm:mt-12 text-center text-muted-foreground text-xs sm:text-sm">
-        <p>&copy; {new Date().getFullYear()} Quick Tambola. Built with love for fun</p>
+        <p>
+          &copy; {new Date().getFullYear()} Quick Tambola. Built with love for
+          fun
+        </p>
       </footer>
     </div>
   );
