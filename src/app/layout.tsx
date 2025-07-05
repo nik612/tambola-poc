@@ -16,6 +16,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
+        <title>Quick Tambola | Play online for free</title>
         <meta
           name="description"
           content="Play Tambola online - number calling, visual board, and smooth gaming experience. No registration needed."
